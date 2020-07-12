@@ -1,7 +1,8 @@
 title: Diogo Seca
 description: > # this means to ignore newlines until "baseurl:"
-  I'm Diogo, a machine learning researcher with an obsession for
-  quantitative investing. My specialty is time series forecasting.
+  Welcome! I'm Diogo, a machine learning researcher with an obsession 
+  for quantitative investing. This blog is a collection of topics that
+  fascinate me.
 permalink: ':title/'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "diogoseca.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -10,7 +11,8 @@ site-twitter: "" #if your site has a twitter account, enter it here
 # Author Settings
 author: Diogo Seca # add your name
 author-img: diogo-seca.png # add your photo
-about-author: >
+about-author: 
+  Welcome to my blog! 
   I'm a Machine Learning Researcher obsessed with Quantitative Investing.
 social-twitter: BayesTheQuant # add your Twitter handle
 social-facebook: # add your Facebook handle
