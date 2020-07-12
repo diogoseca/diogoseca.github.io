@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "diogoseca.com" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: "https://twitter.com/BayesTheQuant" #if your site has a twitter account, enter it here
+site-twitter: "" #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Diogo Seca # add your name
@@ -13,11 +13,11 @@ author-img: diogo-seca.png # add your photo
 about-author: >
   I'm a Machine Learning Researcher obsessed with Forecasting and Quantitative Investing. 
   My greatest gifts are my curiosity and my critical thinking.
-social-twitter: "https://twitter.com/BayesTheQuant" # add your Twitter handle
+social-twitter: BayesTheQuant # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: "https://github.com/diogoseca" # add your Github handle
-social-linkedin: "https://www.linkedin.com/in/diogoseca" # add your Linkedin handle
-social-email: "diogoseca@gmail.com" # add your Email address
+social-github: diogoseca # add your Github handle
+social-linkedin: diogoseca # add your Linkedin handle
+social-email: diogoseca@gmail.com # add your Email address
 
 # Disqus
 discus-identifier: diogoseca-com # add your discus identifier
