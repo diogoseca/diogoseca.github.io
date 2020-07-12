@@ -11,8 +11,7 @@ site-twitter: "" #if your site has a twitter account, enter it here
 author: Diogo Seca # add your name
 author-img: diogo-seca.png # add your photo
 about-author: >
-  I'm a Machine Learning Researcher obsessed with Forecasting and Quantitative Investing. 
-  My greatest gifts are my curiosity and my critical thinking.
+  I'm a Machine Learning Researcher obsessed with Quantitative Investing.
 social-twitter: BayesTheQuant # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: diogoseca # add your Github handle
