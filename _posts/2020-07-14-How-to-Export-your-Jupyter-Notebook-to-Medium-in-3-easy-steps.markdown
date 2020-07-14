@@ -30,8 +30,8 @@ Get your integration token by going to your [Medium Account's Settings](https://
 
 
 ```python
-!mkdir ~/.jupyter_to_medium # create folder
-!echo "YOUR-INTEGRATION-TOKEN" > ~/.jupyter_to_medium/integration_token # add integration token
+!mkdir -p ~/.jupyter_to_medium # make directory if missing 
+!echo "YOUR-INTEGRATION-TOKEN" > ~/.jupyter_to_medium/integration_token
 ```
 
 All done!
