@@ -70,7 +70,7 @@ data
 
 
 
-<div style="width: 100%;">
+<div style="overflow-x: scroll; width: 900px;">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
