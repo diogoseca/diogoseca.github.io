@@ -1,4 +1,12 @@
-# How to export your Jupyter Notebook to Medium in 3 easy steps
+---
+layout: post
+title: How to export your Jupyter Notebook to Medium in 3 easy steps
+date: 2020-07-14
+description: A smart button that will allow you to remarket your content straight to a Medium draft. # Add post description (optional)
+img: i-rest.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Python, Tools, Medium, Jupyter]
+---
 
  
 
