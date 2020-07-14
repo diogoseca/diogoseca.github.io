@@ -466,14 +466,6 @@ quantitative_data = data.loc[:, quantitative_vars]
 data.loc[:, quantitative_vars] = (quantitative_data - quantitative_data.mean()) / quantitative_data.std()
 ```
 
-    /home/quebralim/anaconda3/envs/Py37/lib/python3.7/site-packages/pandas/core/indexing.py:966: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      self.obj[item] = s
-
-
 We can now calculate and visualize the dissimilarity between industries, measured by the [Maximum Mean Discrepancy](http://jmlr.csail.mit.edu/papers/v13/gretton12a.html) between the samples of the different industries).
 
 
