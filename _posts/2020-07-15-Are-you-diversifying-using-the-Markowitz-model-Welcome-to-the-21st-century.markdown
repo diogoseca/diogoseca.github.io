@@ -2,7 +2,7 @@
 layout: post
 title: Are you still diversifying using the Markowitz model? Welcome to the 21st century.
 date: 2020-07-15
-description: Diversification is a hard task, leave it up to machines to learn that task, and 
+description: A better alternative to the Markowitz model is Machine Learning and Statistics.
 img: jupyter.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Python, Tools, Medium, Jupyter]
