@@ -3,9 +3,9 @@ layout: post
 title: Are you still diversifying using the Markowitz model? Welcome to the 21st century.
 date: 2020-07-15
 description: A better alternative to the Markowitz model is Machine Learning and Statistics.
-img: jupyter.png # Add image post (optional)
+img: markowitz.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Python, Tools, Medium, Jupyter]
+tags: [Risk Management, Portfolio Management, Machine Learning, Python]
 ---
 
 This article is Part 1 of a series of articles on Diversification.
