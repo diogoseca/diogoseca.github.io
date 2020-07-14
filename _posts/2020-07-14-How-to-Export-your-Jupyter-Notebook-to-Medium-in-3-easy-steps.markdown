@@ -3,7 +3,7 @@ layout: post
 title: How to Export your Jupyter Notebook to Medium in 3 easy steps
 date: 2020-07-14
 description: A smart button that will allow you to remarket your content straight to a Medium draft. # Add post description (optional)
-img: i-rest.jpg # Add image post (optional)
+img: #i-rest.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Python, Tools, Medium, Jupyter]
 ---
@@ -13,9 +13,9 @@ tags: [Python, Tools, Medium, Jupyter]
 ## 1. Install [jupyter_to_medium](https://www.dexplo.org/jupyter_to_medium/) on Jupyter:
 
 
-```python
-!pip install jupyter_to_medium
-!jupyter bundlerextension enable --py jupyter_to_medium._bundler --sys-prefix
+```bash
+pip install jupyter_to_medium
+jupyter bundlerextension enable --py jupyter_to_medium._bundler --sys-prefix
 ```
 
  
@@ -29,9 +29,9 @@ Get your integration token by going to your [Medium Account's Settings](https://
 ## 3. Set your integration token:
 
 
-```python
-!mkdir -p ~/.jupyter_to_medium # make directory if missing 
-!echo "YOUR-INTEGRATION-TOKEN" > ~/.jupyter_to_medium/integration_token
+```bash
+mkdir -p ~/.jupyter_to_medium # make directory if missing 
+echo "YOUR-INTEGRATION-TOKEN" > ~/.jupyter_to_medium/integration_token
 ```
 
 All done!
