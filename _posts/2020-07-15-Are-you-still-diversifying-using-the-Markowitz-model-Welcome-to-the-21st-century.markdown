@@ -3,7 +3,7 @@ layout: post
 title: Are you still diversifying using the Markowitz model? Welcome to the 21st century.
 date: 2020-07-15
 description: A better alternative to the Markowitz model is Machine Learning and Statistics.
-img: markowitz.png # Add image post (optional)
+img: markowitz.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Risk Management, Portfolio Management, Machine Learning, Python]
 ---
@@ -485,7 +485,7 @@ fig.axes[-1].tick_params(labelsize=18)
 ```
 
 
-![Stock Industries Dissimilarities](industries_dissimilarities.png)
+![Stock Industries Dissimilarities]({{site.baseurl}}/assets/img/industries_dissimilarities.png)
 
 
 We can also frame this as a Hierarchical Clustering problem and use MMD as a linkage metric between industries and clusters of industries:
@@ -498,7 +498,7 @@ plot_dendrogram(initial_clusters, linkage, color_threshold=0.09, above_threshold
 ```
 
 
-![Stocks Clustering](stocks_clustering.png)
+![Stocks Clustering]({{site.baseurl}}/assets/img/stocks_clustering.png)
 
 
 Based on the chart above, we can see that some industries are being clustered with industries of different sectors. Therefor, the data indicates that we're better off diversifying by industries than diversifying by sectors.
