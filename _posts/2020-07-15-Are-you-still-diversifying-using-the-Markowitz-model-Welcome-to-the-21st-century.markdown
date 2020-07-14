@@ -450,14 +450,14 @@ top50
 
 
 
-And filter our data so that we only contain those gics industries.
+And filter our data so that it only contains those GICS industries.
 
 
 ```python
 data = data[data.gics_industry.isin(top50.index)]
 ```
 
-And then standardize the numerical information:
+We then standardize the numerical information:
 
 
 ```python
